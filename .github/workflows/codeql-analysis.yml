@@ -63,7 +63,7 @@ jobs:
     #    uses a compiled language
 
     - run: |
-       apt install libssl-dev libevent-dev libnet-dev libpcap-dev libz-dev -y
+       sudo apt install libssl-dev libevent-dev libnet-dev libpcap-dev libz-dev -y
     #   make release
 
     - name: Perform CodeQL Analysis
